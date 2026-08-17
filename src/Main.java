@@ -33,5 +33,8 @@ public class Main {
 
         charlie.tellUsAboutYourPets();
         john.say("Wait, who are you?");
+
+        Person tom = new Teacher("Tom", "St. Paul");
+        tom.say("Hello!");
     }
 }
