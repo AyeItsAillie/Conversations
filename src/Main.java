@@ -13,7 +13,7 @@ public class Main {
 
         Person charlie = new Teacher("Charlie", "Lakeville");
 
-        john.say("Hello Alice, nice to meet you.");
+        john.say("I don't want to delete the conversation!");
         alice.say("What do you do for a living?");
         john.say(john.tellUsWhatYouAre() + ", how about you?");
         alice.say(alice.tellUsWhatYouAre() + ".");
