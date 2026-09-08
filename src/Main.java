@@ -13,28 +13,6 @@ public class Main {
 
         Person charlie = new Teacher("Charlie", "Lakeville");
 
-        john.say("Hello Alice, nice to meet you.");
-        alice.say("What do you do for a living?");
-        john.say(john.tellUsWhatYouAre() + ", how about you?");
-        alice.say(alice.tellUsWhatYouAre() + ".");
-
-        Animal dogMilo = new Dog("Milo");
-        dogMilo.speak();
-        john.adoptPet(dogMilo);
-
-        Animal catMittens = new Cat("Mittens");
-        catMittens.speak();
-        alice.adoptPet(catMittens);
-
-        alice.say("Do you have any pets?");
-        john.tellUsAboutYourPets();
-        john.say("How about you, any pets?");
-        alice.tellUsAboutYourPets();
-
-        charlie.tellUsAboutYourPets();
-        john.say("Wait, who are you?");
-
-        Person tom = new Teacher("Tom", "St. Paul");
-        tom.say("Hello!");
+        john.say("I'm deleting the conversation!");
     }
 }
