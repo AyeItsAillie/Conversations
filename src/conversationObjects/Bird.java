@@ -6,6 +6,6 @@ public class Bird extends Animal {
     }
 
     public void speak() {
-        say("CHIRP CHIRP");
+        say("CHIRP CHIRP CHIRP");
     }
 }
